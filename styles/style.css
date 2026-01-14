@@ -470,10 +470,6 @@
         margin-bottom: 20px;
     }
 
-    .some_fact_content_title span{
-        color: #FF900E;
-    }
-
     .some_fact_card_container {
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
@@ -504,6 +500,9 @@
 .our_sponsors_description_title{
     font-size: 2rem;
     margin-bottom: 20px;
+}
+.our_sponsors_description_title span{
+    color: #FF900E;
 }
 .our_sponsors_description_text{
     line-height: 24px;
