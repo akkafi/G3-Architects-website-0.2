@@ -323,6 +323,9 @@
     font-weight: 700;
     margin-bottom: 24px;
 }
+.our_sponsors_description_title span{
+    color: #FF900E;
+}
 .our_sponsors_description_text{
     line-height: 24px;
 }
