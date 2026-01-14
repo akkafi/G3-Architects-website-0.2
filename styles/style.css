@@ -470,6 +470,10 @@
         margin-bottom: 20px;
     }
 
+    .some_fact_content_title span{
+        color: #FF900E;
+    }
+
     .some_fact_card_container {
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
