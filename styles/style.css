@@ -31,7 +31,8 @@
 .dark_3 {
     color: #727272;
 }
-.btn_primary{
+
+.btn_primary {
     border: none;
     background-color: #FF900E;
     color: white;
@@ -40,7 +41,8 @@
     padding: 20px 24px;
     border-radius: 8px;
 }
-.btn_primary:hover{
+
+.btn_primary:hover {
     background-color: green;
     transition: .5s;
 }
@@ -67,7 +69,8 @@
     font-size: 2.8rem;
     font-weight: 700;
 }
-#version{
+
+#version {
     color: #FF900E;
 }
 
@@ -86,10 +89,11 @@
     font-size: 1.25rem;
     font-weight: 500;
 }
+
 /* navbar section end */
 
 /* brand section start */
-.brand_content{
+.brand_content {
     max-width: 860px;
     margin: 0 auto;
     text-align: center;
@@ -98,111 +102,235 @@
     align-items: center;
     margin-bottom: 30px;
 }
-.brand_title{
+
+.brand_title {
     margin-top: 30px;
     font-size: 4rem;
     font-weight: 700;
     line-height: 75px
 }
-.brand_text{
+.brand_title span{
+    color: #FF900E;
+}
+
+.brand_text {
     line-height: 26px;
 }
 
-.brand_img img{
+.brand_img img {
     width: 100%;
     vertical-align: middle;
 }
+
 /* brand section end */
 /*! header section end here */
 
 /*! main section start here */
 
 /* our_features section start */
-.our_features_container{
+.our_features_container {
     justify-content: space-between;
     align-items: center;
     gap: 76px;
     margin-top: 130px;
 }
 
-.our_features_image_container{
+.our_features_image_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
-.our_features_image_container img{
+
+.our_features_image_container img {
     width: 100%;
 }
 
-.our_features_description{
+.our_features_description {
     max-width: 540px;
 }
 
-.our_features_description_title{
+.our_features_description_title {
     font-size: 2.8rem;
     font-weight: 700;
     margin-bottom: 28px;
     color: #FF900E;
 }
 
-#our_features_description_title_style_1{
+#our_features_description_title_style_1 {
     font-weight: 400;
 }
-.our_features_description_text{
+
+.our_features_description_text {
     font-size: 1rem;
     line-height: 25px;
     margin-bottom: 28px;
 }
+
 /* our_features section end */
+
+/* features_love_enjoy section start */
+.features_love_enjoy_container {
+    margin-top: 100px;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.features_love_enjoy_description {
+    max-width: 586px;
+}
+
+.features_love_enjoy_title {
+    border-left: 5px solid #FF900E;
+    font-size: 2.7rem;
+    font-weight: 700;
+    padding-left: 21px;
+    margin-bottom: 20px;
+}
+
+.features_love_enjoy_description_text {
+    line-height: 25px;
+}
+
+/* features_love_enjoy_card_container */
+.features_love_enjoy_card_container {
+    margin-top: 20px;
+}
+
+.features_love_enjoy_card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.137);
+    margin-bottom: 15px;
+}
+
+.features_love_enjoy_card_title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.features_love_enjoy_title span{
+    color: #FF900E;
+}
+
+.features_love_enjoy_card_description {
+    line-height: 20px;
+}
+
+.features_love_enjoy_image img {
+    width: 100%;
+    margin-top: -30px;
+    height: 90%;
+    vertical-align: middle;
+}
+
+.features_love_enjoy_image_experience_btn {
+    border-radius: 8px;
+    background: rgba(255, 144, 14, 1);
+    padding: 35px 40px;
+    border: none;
+    margin-left: -82px;
+    margin-top: -80px;
+    gap: 50px;
+}
+
+#experience_btn_1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: white;
+}
+#experience_btn_2{
+    font-size: 1.8rem;
+    color: white;
+}
+
+/* features_love_enjoy section end */
 /* main section end here */
 
 /* responsive breakpoint */
 /* ! mobile device */
 @media screen and (max-width: 576px) {
-    .navbar , .our_features_container {
+
+    .navbar,
+    .our_features_container , .features_love_enjoy_container {
         flex-direction: column;
     }
+
     /* navbar start */
     .nav_title {
         font-size: 2rem;
     }
+
     .nav_menu {
-    gap: 30px;
-    margin-top: 10px;
-}
-.nav_link {
-    font-size: 1rem;
-}
- /* navbar end */
+        gap: 30px;
+        margin-top: 10px;
+    }
 
- /* brand start */
-.brand_content{
-    gap: 15px;
-}
-.brand_title{
-    font-size: 1.8rem;
-    line-height: 30px
-}
-.btn_primary{
-    padding: 15px 20px;
-    width: 100%;
-}
- /* brand end */
+    .nav_link {
+        font-size: 1rem;
+    }
 
- /* our features start */
- .our_features_container{
-    margin-top: 60px;
+    /* navbar end */
+
+    /* brand start */
+    .brand_content {
+        gap: 15px;
+    }
+
+    .brand_title {
+        font-size: 1.8rem;
+        line-height: 30px
+    }
+
+    .btn_primary {
+        padding: 15px 20px;
+        width: 100%;
+    }
+
+    /* brand end */
+
+    /* our features start */
+    .our_features_container {
+        margin-top: 60px;
+    }
+
+    .our_features_container {
+        flex-direction: column-reverse;
+    }
+
+    .our_features_description_title {
+        font-size: 2rem;
+    }
+
+    .our_features_description {
+        text-align: center;
+    }
+
+    /* our features  */
+
+/* features_love_enjoy */
+    .features_love_enjoy_image_experience_btn {
+    padding: 25px 30px;
+    margin: 0 auto;
+    margin-top: -80px;
 }
- .our_features_container{
-    flex-direction: column-reverse;
- }
- .our_features_description_title{
-    font-size: 2rem;
+
+#experience_btn_1 {
+    font-size: 2.25rem;
 }
-.our_features_description{
-    text-align: center;
+#experience_btn_2{
+    font-size: 1.25rem;
 }
-  /* our features  */
+.features_love_enjoy_container {
+    text-align: justify;
+    gap: 60px;
+}
+.features_love_enjoy_title {
+    font-size: 1.9rem;
+    text-align: left;
+    padding-left: 15px;
+}
+
+/* features_love_enjoy */
 
 
 }
