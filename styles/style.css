@@ -250,6 +250,62 @@
 }
 
 /* features_love_enjoy section end */
+
+/* some_fact section start */
+.some_fact_container {
+    margin-top: 130px;
+
+}
+
+.some_fact_content {
+    max-width: 542px;
+    margin-bottom: 100px;
+}
+
+.some_fact_content_title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.some_fact_content_title span{
+    color: #FF900E;
+}
+
+.some_fact_description_text {
+    line-height: 26px;
+}
+
+.some_fact_card_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 50px;
+
+}
+
+.some_fact_card {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px 35px;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    max-width: 240px;
+
+}
+
+.some_fact_card_title {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.some_fact_card_text {
+    font-size: 1.20rem;
+    font-weight: 600;
+}
+
+/* some_fact section end */
 /* main section end here */
 
 /* responsive breakpoint */
@@ -258,7 +314,8 @@
 
     .navbar,
     .our_features_container,
-    .features_love_enjoy_container {
+    .features_love_enjoy_container,
+    .some_fact_card_container {
         flex-direction: column;
     }
 
@@ -330,7 +387,6 @@
     }
 
     .features_love_enjoy_container {
-
         gap: 60px;
     }
 
@@ -341,6 +397,42 @@
     }
 
     /* features_love_enjoy */
+
+
+    /* some_fact section start */
+    .some_fact_container {
+        margin-top: 70px;
+
+    }
+
+    .some_fact_content {
+        margin-bottom: 70px;
+        margin-bottom: 45px;
+    }
+
+    .some_fact_content_title {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .some_fact_card_container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+        margin: 0 auto;
+    }
+
+    .some_fact_card {
+        max-width: 100%;
+    }
+
+    .some_fact_card_title {
+        font-size: 2rem;
+    }
+
+    .some_fact_card_text {
+        font-size: 1.15rem;
+    }
+    /* some_fact section end */
 }
 
 /* laptop device */
@@ -395,16 +487,24 @@
         margin-top: 80px;
         gap: 65px;
     }
+
+    .features_love_enjoy_description {
+        max-width: 843px;
+    }
+
     .features_love_enjoy_image_experience_btn {
-    padding: 25px 30px;
-    margin: 0 auto;
-    margin-top: -80px;
-}
+        padding: 25px 30px;
+        margin: 0 auto;
+        margin-top: -80px;
+    }
+
     #experience_btn_1 {
-    font-size: 2.8rem;
-}
+        font-size: 2.8rem;
+    }
+
     #experience_btn_2 {
-    font-size: 1.4rem;
-}
+        font-size: 1.4rem;
+    }
+
     /* features_love_enjoy section end */
 }
