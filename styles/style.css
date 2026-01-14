@@ -50,6 +50,9 @@
 /* main > section {
     margin: 65px 0;
 } */
+.display_hidden {
+    display: none;
+}
 
 /* Common class end here */
 
@@ -109,7 +112,8 @@
     font-weight: 700;
     line-height: 75px
 }
-.brand_title span{
+
+.brand_title span {
     color: #FF900E;
 }
 
@@ -208,7 +212,8 @@
     font-weight: 600;
     margin-bottom: 7px;
 }
-.features_love_enjoy_title span{
+
+.features_love_enjoy_title span {
     color: #FF900E;
 }
 
@@ -238,7 +243,8 @@
     font-weight: 700;
     color: white;
 }
-#experience_btn_2{
+
+#experience_btn_2 {
     font-size: 1.8rem;
     color: white;
 }
@@ -251,7 +257,8 @@
 @media screen and (max-width: 576px) {
 
     .navbar,
-    .our_features_container , .features_love_enjoy_container {
+    .our_features_container,
+    .features_love_enjoy_container {
         flex-direction: column;
     }
 
@@ -307,30 +314,97 @@
 
     /* our features  */
 
-/* features_love_enjoy */
+    /* features_love_enjoy */
+    .features_love_enjoy_image_experience_btn {
+        padding: 25px 30px;
+        margin: 0 auto;
+        margin-top: -80px;
+    }
+
+    #experience_btn_1 {
+        font-size: 2.25rem;
+    }
+
+    #experience_btn_2 {
+        font-size: 1.25rem;
+    }
+
+    .features_love_enjoy_container {
+
+        gap: 60px;
+    }
+
+    .features_love_enjoy_title {
+        font-size: 1.9rem;
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    /* features_love_enjoy */
+}
+
+/* laptop device */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    /* navbar section start */
+    .navbar,
+    .our_features_container,
+    .features_love_enjoy_container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .nav_title {
+        font-size: 2.4rem;
+    }
+
+    .nav_menu {
+        gap: 70px;
+    }
+
+    .nav_link {
+        font-size: 1.4rem;
+    }
+
+    /* navbar section end */
+
+    /* brand section start */
+    .brand_title {
+        margin-top: 20px;
+        font-size: 2.5rem;
+        line-height: 50px
+    }
+
+    /* brand section end */
+
+    /* our_features section start */
+    .our_features_container {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .our_features_description_title {
+        margin-bottom: 20px;
+    }
+
+    /* our_features section end */
+
+    /* features_love_enjoy section start */
+    .features_love_enjoy_container {
+        margin-top: 80px;
+        gap: 65px;
+    }
     .features_love_enjoy_image_experience_btn {
     padding: 25px 30px;
     margin: 0 auto;
     margin-top: -80px;
 }
-
-#experience_btn_1 {
-    font-size: 2.25rem;
+    #experience_btn_1 {
+    font-size: 2.8rem;
 }
-#experience_btn_2{
-    font-size: 1.25rem;
+    #experience_btn_2 {
+    font-size: 1.4rem;
 }
-.features_love_enjoy_container {
-    text-align: justify;
-    gap: 60px;
-}
-.features_love_enjoy_title {
-    font-size: 1.9rem;
-    text-align: left;
-    padding-left: 15px;
-}
-
-/* features_love_enjoy */
-
-
+    /* features_love_enjoy section end */
 }
