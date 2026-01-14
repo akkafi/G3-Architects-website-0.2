@@ -406,7 +406,6 @@
     }
 
     .some_fact_content {
-        margin-bottom: 70px;
         margin-bottom: 45px;
     }
 
@@ -417,7 +416,7 @@
 
     .some_fact_card_container {
         grid-template-columns: repeat(1, 1fr);
-        gap: 50px;
+        gap: 30px;
         margin: 0 auto;
     }
 
@@ -507,4 +506,31 @@
     }
 
     /* features_love_enjoy section end */
+    /* some_fact section start */
+.some_fact_container {
+    margin-top: 70px;
+}
+.some_fact_content {
+    margin-bottom: 50px;
+}
+
+.some_fact_content_title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.some_fact_card_container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-left: 0;
+}
+
+.some_fact_card {
+    padding: 45px 35px;
+    max-width: 100%;
+}
+
+/* some_fact section end */
+
+
 }
